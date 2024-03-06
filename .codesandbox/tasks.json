@@ -3,12 +3,17 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
+<<<<<<< HEAD
       "command": "yarn install"
+=======
+      "command": "npm install"
+>>>>>>> 291aa1fc6dbc99bdf0407bd2b42941603e7e9ca3
     }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
+<<<<<<< HEAD
     "start": {
       "name": "start",
       "command": "yarn start",
@@ -16,6 +21,12 @@
       "preview": {
         "port": 8080
       }
+=======
+    "npm start": {
+      "name": "npm start",
+      "command": "npm start",
+      "runAtStart": true
+>>>>>>> 291aa1fc6dbc99bdf0407bd2b42941603e7e9ca3
     }
   }
 }
