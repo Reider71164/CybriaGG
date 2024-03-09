@@ -19,7 +19,7 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl = 'https://educationbluesky.com';
+  const nggurl = 'https://now.gg/play/tiktok/4478/tiktok';
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
